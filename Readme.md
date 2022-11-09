@@ -34,8 +34,7 @@ frontend
 
 ## Screenshots
 
-https://user-images.githubusercontent.com/65288859/200911967-676296fa-c585-41d3-b16e-a45d41cc8da5.png
-
+<img src="https://user-images.githubusercontent.com/65288859/200911967-676296fa-c585-41d3-b16e-a45d41cc8da5.png" width="400px"   > <img src="https://user-images.githubusercontent.com/65288859/200911993-adba5286-38ff-4c34-a033-672d62e64024.png" width="400px"  align="right" >
 
 
 
