@@ -1,0 +1,87 @@
+.landingPage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100vh - 10vh);
+    overflow-y: hidden;
+  }
+  
+  .about {
+    flex: 0.5;
+    background-color: #f7f8fa;
+  
+    .leftContainer {
+      padding: 5rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+    .userImg {
+      background-color: white;
+      width: 90%;
+    }
+    .title {
+      font-weight: 600;
+      font-family: DM Sans;
+      font-size: 3rem;
+      line-height: 62px;
+      letter-spacing: -0.02em;
+      color: #1e272e;
+    }
+    .description {
+      font-family: DM Sans;
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 160%;
+      letter-spacing: -0.02em;
+      color: #566474;
+    }
+  }
+  
+  .upload_pic {
+    flex: 0.5;
+    background-color: #fff;
+     
+    
+    .rightContainer {
+      margin-top: 7rem;
+      padding: 3rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #dfe0e0;
+      border-radius: 10px;
+  
+      .pictureContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        .gallery {
+          width: 30%;
+        }
+      }
+  
+      .instructions {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #566474;
+        margin-bottom: 3rem;
+      }
+      .choose_img {
+        background: #142683;
+        color: white;
+        font-weight: 500;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        line-height: 2.5rem;
+        cursor: pointer;
+        text-align: center;
+      }
+    }
+  }

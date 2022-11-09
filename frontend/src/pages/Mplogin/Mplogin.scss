@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.Header{
+    width: 100%;
+    min-height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: white;
+
+    .button{
+        height: 45px;
+        width: 125px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border-color: #142683;
+        background-color: #142683;
+        color: white;
+
+    }
+    
+}
+.mainPage{
+    width: 100%;
+    background: #FAFAFA;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .banner{
+        width: 80%;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        img{
+            object-fit: contain;
+            height: 100%;
+        }
+
+        .right{
+            background-color:  #C3E7FD;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            min-width: calc(100% - 317px);
+            display: flex;
+            padding: 50px 100px;
+            align-items: center;
+            &::after{
+                content: ' ';
+                height: 100%;
+                border-radius: 50%;
+                position: absolute;
+                background-color: #D3B4F6;
+                width: 200px;
+                left: -100px;
+                top: 0px;
+            }
+
+            .r1{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 50px;
+
+                .heading1{
+                    color :#1E272E;
+                    font-size: xx-large;
+                    font-weight: bold;
+                }
+
+                .heading2{
+                    font-size: large;
+                    color: gray;
+                }
+            }
+
+            .viewButton{
+                height: 40px;
+                width: 140px;
+                background-color: black;
+                color: white;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 100px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+
+        
+    }
+}
+
+.subHead{
+    width: 80%;
+    font-family: DM Sans;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+

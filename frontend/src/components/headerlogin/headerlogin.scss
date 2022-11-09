@@ -1,0 +1,56 @@
+.headerlogin{
+    width: 100%;
+    min-height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: white;
+    flex-direction: row;
+
+    .Cuvette{
+        height: 88px;
+        padding: 1.2rem;
+        margin-left: 2rem;
+    }
+    
+    .button2{
+        height: 45px;
+        width: 125px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border-color: #142683;
+        background-color: #142683;
+        color: white;
+        margin-left: 30px;
+        margin-right: 30px;
+        cursor: pointer;
+
+    }
+    .button1{
+        border: none;
+        background: none;
+        cursor: pointer;
+        color: #566474;
+        
+         
+
+    }
+
+    .logout{
+        // height: 25px;
+        // width: 25px;
+        // border: none;
+        cursor: pointer;
+        background: none;
+        color: #566474;
+        font-size: 18px;
+        border: 2px;
+        align-items: center;
+        }
+    
+    }
+a{
+    text-decoration: none;
+}
